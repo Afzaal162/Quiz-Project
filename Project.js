@@ -1,20 +1,38 @@
 const questions = [
-    {
-        question: "Q1: In which year was JavaScript launched?",
+    {    
+        question: "Q1: Complete the sentence (Program to)",
         answers: [
-            { text: "1995", correct: true },
-            { text: "1996", correct: false },
-            { text: "1997", correct: false },
-            { text: "1998", correct: false }
+            { text: "Chad gyia", correct: false },
+            { text: "Gum gyia", correct: false },
+            { text: "Jari hay", correct: false },
+            { text: "War gyia", correct: true }
         ]
     },
     {
-        question: "Q2: In which years was Python launched?",
+        question: "Q2: Complete this sentence (kyia hum koi)",
         answers: [
-            { text: "1991", correct: true },
-            { text: "1992", correct: false },
-            { text: "1993", correct: false },
-            { text: "1994", correct: false }
+            { text: "Nokar hain", correct: false },
+            { text: "Student hain", correct: false },
+            { text: "Gulam hain", correct: true },
+            { text: "Officer hain", correct: false }
+        ]
+    },
+    {
+        question: "Q3: Complete this sentence (Beggars can not be )",
+        answers: [
+            { text: "Picker", correct: false },
+            { text: "Choosers", correct: true },
+            { text: "Prime Minister", correct: false },
+            { text: "steller", correct: false }
+        ]
+    },
+    {
+        question: "Q4: Which is most successful political part of Pakistan",
+        answers: [
+            { text: "PTI", correct: false },
+            { text: "PMLN", correct: false },
+            { text: "PPP", correct: false },
+            { text: "Lumber 1", correct: true }
         ]
     }
     // Add more questions here
