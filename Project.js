@@ -21,9 +21,9 @@ const questions = [
         question: "Q3:  In which year was ChatGPT launched",
         answers: [
             { text: "2020", correct: false },
-            { text: "2021", correct: true },
+            { text: "2021", correct: false },
             { text: "2022", correct: false },
-            { text: "2023", correct: false }
+            { text: "2023", correct: true }
         ]
     },
     {
@@ -31,8 +31,8 @@ const questions = [
         answers: [
             { text: "2022", correct: false },
             { text: "2023", correct: false },
-            { text: "2024", correct: false },
-            { text: "2025", correct: true }
+            { text: "2024", correct: true },
+            { text: "2025", correct: false }
         ]
     }
     // Add more questions here
