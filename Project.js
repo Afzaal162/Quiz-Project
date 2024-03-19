@@ -1,38 +1,38 @@
 const questions = [
     {    
-        question: "Q1: Complete the sentence (Program to)",
+        question: "Q1: In which year was JavaScript launched ",
         answers: [
-            { text: "Chad gyia", correct: false },
-            { text: "Gum gyia", correct: false },
-            { text: "Jari hay", correct: false },
-            { text: "War gyia", correct: true }
+            { text: "1992", correct: false },
+            { text: "1993", correct: false },
+            { text: "1994", correct: false },
+            { text: "1995", correct: true }
         ]
     },
     {
-        question: "Q2: Complete this sentence (kyia hum koi)",
+        question: "Q2:  In which year was Python launched",
         answers: [
-            { text: "Nokar hain", correct: false },
-            { text: "Student hain", correct: false },
-            { text: "Gulam hain", correct: true },
-            { text: "Officer hain", correct: false }
+            { text: "1989", correct: false },
+            { text: "1990", correct: false },
+            { text: "1991", correct: true },
+            { text: "1992", correct: false }
         ]
     },
     {
-        question: "Q3: Complete this sentence (Beggars can not be )",
+        question: "Q3:  In which year was ChatGPT launched",
         answers: [
-            { text: "Picker", correct: false },
-            { text: "Choosers", correct: true },
-            { text: "Prime Minister", correct: false },
-            { text: "steller", correct: false }
+            { text: "2020", correct: false },
+            { text: "2021", correct: true },
+            { text: "2022", correct: false },
+            { text: "2023", correct: false }
         ]
     },
     {
-        question: "Q4: Which is most successful political part of Pakistan",
+        question: "Q4:  In which year was Devin launched",
         answers: [
-            { text: "PTI", correct: false },
-            { text: "PMLN", correct: false },
-            { text: "PPP", correct: false },
-            { text: "Lumber 1", correct: true }
+            { text: "2022", correct: false },
+            { text: "2023", correct: false },
+            { text: "2024", correct: false },
+            { text: "2025", correct: true }
         ]
     }
     // Add more questions here
@@ -103,7 +103,7 @@ function endQuiz() {
 function resetQuiz() {
     currentQuestionIndex = 0; // Reset current question index
     score = 0; // Reset score
-    nextButton.innerHTML = 'Next'; // Change button text back to "Next"
+    nextButton.innerHTML = ''; // Change button text back to "Next"
     nextButton.style.display = 'none';
     showQuestion(); // Show the first question again
 }
